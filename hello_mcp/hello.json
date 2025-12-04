@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "hello-mcp": {
+      "command": "uv",
+      "args": [
+        "run",
+        "/Users/munna/VScode/QT-GenAI/hello_mcp/.venv/bin/python",
+        "/Users/munna/VScode/QT-GenAI/hello_mcp/hello.py"
+      ],
+      "cwd": "/Users/munna/VScode/QT-GenAI/hello_mcp"
+    }
+  }
+}
