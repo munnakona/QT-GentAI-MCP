@@ -2,7 +2,7 @@
 This module has pydantic models
 """
 
-from typing import Annotated, List
+from typing import Annotated, List,Optional
 from datetime import datetime, date
 from enum import Enum
 from pydantic import BaseModel, Field
