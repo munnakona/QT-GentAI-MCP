@@ -51,5 +51,4 @@ Repeated or suspicious claims may lead to:
 Claim rejection
 Temporary suspension of compensation eligibility
 We ensure fairness for all customers.
-
 ---
