@@ -1,0 +1,39 @@
+{
+    "mcpServers": {
+        "hello-mcp": {
+            "command": "uv",
+            "args": [
+                "run",
+                "/Users/munna/VScode/QT-GenAI/hello_mcp/.venv/bin/python",
+                "/Users/munna/VScode/QT-GenAI/hello_mcp/hello.py"
+            ],
+            "cwd": "/Users/munna/VScode/QT-GenAI/hello_mcp"
+        },
+        "swiggy-mcp": {
+            "command": "uv",
+            "args": [
+                "run",
+                "/Users/munna/VScode/QT-GenAI/swig_mcp/.venv/bin/python",
+                "/Users/munna/VScode/QT-GenAI/swig_mcp/customercare.py"
+            ],
+            "cwd": "/Users/munna/VScode/QT-GenAI/swig_mcp"
+        },
+	"streamble-mcp": {
+             "command": "npx",
+             "args": [
+		"-y",
+                "mcp-remote",
+                "http://localhost:8000/mcp/"
+      ]
+    },
+       "swiggy-mcp-http": {
+           "command": "npx",
+              "args": [
+		"-y",
+                "mcp-remote",
+                "http://localhost:8000/mcp/"
+      ]
+    }
+		
+    }
+}
